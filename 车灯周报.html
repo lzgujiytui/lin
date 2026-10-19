@@ -410,8 +410,10 @@ mk('s3',Object.assign(base(),{legend:{data:['自然单(件)','广告单(件)','�
 </script>
 <style>.sortth{cursor:pointer;user-select:none}.sortth:hover{background:#dbeafe}.sico{color:#94a3b8;font-size:11px}</style><script>(function(){var tb=document.querySelector("#slow-all tbody");if(!tb){return;}function sortTh(th){var idx=Array.prototype.indexOf.call(th.parentNode.children,th);var desc=th.getAttribute("data-dir")!=="asc";var rows=Array.prototype.slice.call(tb.querySelectorAll("tr")).filter(function(r){return !r.classList.contains("sumrow");});rows.sort(function(a,b){var va=parseFloat((a.children[idx].textContent||"").replace(/[^0-9.\-]/g,""))||0;var vb=parseFloat((b.children[idx].textContent||"").replace(/[^0-9.\-]/g,""))||0;return desc?vb-va:va-vb;});rows.forEach(function(r){tb.appendChild(r);});th.setAttribute("data-dir",desc?"asc":"desc");var t=th.textContent.replace(/[ ↓↑]+$/,"");th.textContent=t+(desc?" ↓":" ↑");window.__slowSort=sortTh;}Array.prototype.forEach.call(document.querySelectorAll("#slow-all th[data-s]"),function(th){th.addEventListener("click",function(){sortTh(th);});});var c=document.getElementById("sf-cat"),st=document.getElementById("sf-st"),q=document.getElementById("sf-q"),n=document.getElementById("sf-n");function ap(){var cv=c?c.value:"",sv=st?st.value:"",kv=(q&&q.value||"").trim().toLowerCase(),cnt=0;Array.prototype.forEach.call(tb.querySelectorAll("tr"),function(tr){if(tr.classList.contains("sumrow")){return;}var ok=(!cv||tr.getAttribute("data-cat")===cv)&&(!sv||tr.getAttribute("data-st")===sv)&&(!kv||tr.textContent.toLowerCase().indexOf(kv)>=0);tr.style.display=ok?"":"none";if(ok)cnt++;});if(n){n.textContent="显示 "+cnt+" 条";}}if(c){c.addEventListener("change",ap);}if(st){st.addEventListener("change",ap);}if(q){q.addEventListener("input",ap);}ap();})();</script>
 <script>
-(function(){var W={"labels": ["W37", "W38", "W39", "W40", "W41"], "cats": ["大灯总成", "雾灯总成", "尾灯总成"], "series": {"大灯总成": [0.0, 0.0, 8.0, 13.0, 16.0], "雾灯总成": [0.0, 0.0, 1.0, 0.0, 0.0], "尾灯总成": [0.0, 0.0, 0.0, 0.0, 0.0]}, "total": [0.0, 0.0, 9.0, 13.0, 16.0]};if(typeof echarts==="undefined"){return;}
-var c=echarts.init(document.getElementById("cslow"));
+window.addEventListener("load",function(){setTimeout(function(){
+var W={"labels": ["W37", "W38", "W39", "W40", "W41"], "cats": ["大灯总成", "雾灯总成", "尾灯总成"], "series": {"大灯总成": [0.0, 0.0, 8.0, 13.0, 16.0], "雾灯总成": [0.0, 0.0, 1.0, 0.0, 0.0], "尾灯总成": [0.0, 0.0, 0.0, 0.0, 0.0]}, "total": [0.0, 0.0, 9.0, 13.0, 16.0]};if(typeof echarts==="undefined"){return;}
+var el=document.getElementById("cslow");if(!el){return;}
+var c=echarts.init(el,null,{renderer:"canvas"});
 var cats=W.cats.map(function(k,i){return {name:k,type:"bar",stack:"q",barMaxWidth:38,
   data:W.series[k],itemStyle:{color:["#3b82f6","#f59e0b","#10b981"][i]}};});
 cats.push({name:"合计",type:"line",smooth:true,symbolSize:7,data:W.total,lineStyle:{width:2.4,color:"#ef4444"},itemStyle:{color:"#ef4444"}});
@@ -420,7 +422,8 @@ c.setOption({tooltip:{trigger:"axis"},legend:{top:4,data:W.cats.concat(["合计"
  xAxis:{type:"category",data:W.labels,axisLabel:{fontSize:11}},
  yAxis:{type:"value",name:"件",splitLine:{lineStyle:{color:"#eef1f5"}}},
  series:cats});
+c.resize();
 window.addEventListener("resize",function(){c.resize();});
-})();
+},300);});
 </script>
 </body></html>
