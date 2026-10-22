@@ -1,0 +1,5 @@
+.hermes/
+*.xlsx
+*.xls
+*wk_raw.json
+data_bi.json
