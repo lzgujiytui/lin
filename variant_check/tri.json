@@ -1,0 +1,110 @@
+{
+ "B0CPSJT5SN": [
+  {
+   "dvddAsins": [
+    "B0CPSJT5SN"
+   ],
+   "dvddKeys": 1,
+   "nState": 1,
+   "ready": "complete",
+   "stateAsins": [
+    "B0CPSJT5SN"
+   ],
+   "tfLen": 223589,
+   "url": "https://www.amazon.com/dp/B0CPSJT5SN?th=1&psc=1&_=142116066"
+  },
+  {
+   "dvddAsins": [
+    "B0CPSJT5SN"
+   ],
+   "dvddKeys": 1,
+   "nState": 1,
+   "ready": "complete",
+   "stateAsins": [
+    "B0CPSJT5SN"
+   ],
+   "tfLen": 211178,
+   "url": "https://www.amazon.com/dp/B0CPSJT5SN?th=1&psc=1&_=944786929"
+  }
+ ],
+ "B0FH53CKPW": [
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0FH53CKPW?th=1&psc=1&_=796551702"
+  },
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0FH53CKPW?th=1&psc=1&_=893945738"
+  }
+ ],
+ "B0FJD39TXS": [
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0FJD39TXS?th=1&psc=1&_=277222030"
+  },
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0FJD39TXS?th=1&psc=1&_=272880951"
+  }
+ ],
+ "B0HMS6GGVS": [
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0HMS6GGVS?th=1&psc=1&_=924567843"
+  },
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0HMS6GGVS?th=1&psc=1&_=665661326"
+  }
+ ],
+ "B0GJRVZNZM": [
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0GJRVZNZM?th=1&psc=1&_=123005109"
+  },
+  {
+   "dvddAsins": [],
+   "dvddKeys": 0,
+   "nState": 0,
+   "ready": "complete",
+   "stateAsins": [],
+   "tfLen": 83,
+   "url": "https://www.amazon.com/dp/B0GJRVZNZM?th=1&psc=1&_=693365672"
+  }
+ ]
+}

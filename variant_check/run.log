@@ -1,0 +1,239 @@
+CLI = C:\Users\HP\AppData\Local\hermes\hermes-agent\node_modules\agent-browser\bin\agent-browser-win32-x64.exe
+待抓 235 个 ASIN（已完成 3）
+[1/235] B0HJZTN9PF skip
+[2/235] B0HJZNNB4T skip
+[3/235] B0HJZRSB9W skip
+[4/235] B0HJZS4GY3 OK rating= cnt= nVar=0
+[5/235] B0HJZNQZMT OK rating= cnt= nVar=1
+[6/235] B0HJZPMK9N OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[7/235] B0FSR7P4QQ OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[8/235] B0HJZKRYHG OK rating= cnt= nVar=6
+[9/235] B0FLJFKCKT OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[10/235] B0GJRVZNZM OK rating=3.7 out of 5 stars cnt=(17) nVar=3
+[11/235] B0HJZW2BK9 OK rating= cnt= nVar=2
+[12/235] B0FQJGQCP1 OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[13/235] B0FP25CMN6 OK rating= cnt= nVar=0
+[14/235] B0HJZMG4YZ OK rating= cnt= nVar=2
+[15/235] B0HJZTVFYJ OK rating=4.2 out of 5 stars cnt=(47) nVar=0
+[16/235] B0HJZT5DXD OK rating= cnt= nVar=3
+[17/235] B0HJZXR8DD OK rating= cnt= nVar=2
+[18/235] B0HJZRFDY4 OK rating= cnt= nVar=4
+[19/235] B0HJZSDB9M OK rating=4.0 out of 5 stars cnt=(129) nVar=0
+[20/235] B0HJZS4666 OK rating= cnt= nVar=6
+[21/235] B0HJZV819B OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[22/235] B0HJZX5R8J OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[23/235] B0HJZHZ7D4 OK rating= cnt= nVar=3
+[24/235] B0FHHL1FGJ OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[25/235] B0HJZT5WKL OK rating= cnt= nVar=3
+[26/235] B08CMJ55KW OK rating=4.3 out of 5 stars cnt=(354) nVar=2
+[27/235] B0HJZSBX7X OK rating=4.0 out of 5 stars cnt=(129) nVar=0
+[28/235] B0HJZVKTGM OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[29/235] B0HJZY5QTJ OK rating= cnt= nVar=3
+[30/235] B0HJZQ9S2N OK rating= cnt= nVar=1
+[31/235] B0HJZY948T OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[32/235] B0HJZPTK5N OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[33/235] B0HJZYH5QG OK rating=4.4 out of 5 stars cnt=(795) nVar=1
+[34/235] B0HJZXRG7T OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[35/235] B0BJYX7Y7Y OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[36/235] B0H338S58P OK rating=4.2 out of 5 stars cnt=(3) nVar=4
+[37/235] B085VHVX3P OK rating=4.4 out of 5 stars cnt=(795) nVar=1
+[38/235] B08CMXKKM2 OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[39/235] B0FVSYN8NY OK rating=5.0 out of 5 stars cnt=(1) nVar=0
+[40/235] B0BF55D5L5 OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[41/235] B0FM883M41 OK rating=4.2 out of 5 stars cnt=(3) nVar=4
+[42/235] B0CPSJT5SN OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[43/235] B0FJD39TXS OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[44/235] B0HMSDHCVX OK rating= cnt= nVar=6
+[45/235] B0HMSQ1CR4 OK rating= cnt= nVar=3
+[46/235] B0HMSQ3NV4 OK rating= cnt= nVar=3
+[47/235] B0HMSK2PM9 OK rating= cnt= nVar=0
+[48/235] B0HMSHY5FP OK rating= cnt= nVar=3
+[49/235] B0HMSHGQWQ OK rating= cnt= nVar=6
+[50/235] B0HMS6YHSD OK rating= cnt= nVar=2
+[51/235] B0HMSCH8SP OK rating= cnt= nVar=4
+[52/235] B0HMSJJHBX OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[53/235] B0HMSGRNP4 OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[54/235] B0HMSH46TB OK rating= cnt= nVar=2
+[55/235] B0HMSK23BJ OK rating= cnt= nVar=3
+[56/235] B0HMS9STHL OK rating= cnt= nVar=6
+[57/235] B0HMSG25PS OK rating= cnt= nVar=6
+[58/235] B0HMS7J3MQ OK rating= cnt= nVar=1
+[59/235] B0HMSLM13M OK rating= cnt= nVar=0
+[60/235] B0HMSHFMXH OK rating= cnt= nVar=2
+[61/235] B0HMS9C1BM OK rating= cnt= nVar=2
+[62/235] B0HMSH3X5V OK rating= cnt= nVar=6
+[63/235] B0HMSMCLSG OK rating= cnt= nVar=1
+[64/235] B0HMSKFCYY OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[65/235] B0HMSH24FG OK rating= cnt= nVar=3
+[66/235] B0HMSGLFSP OK rating= cnt= nVar=3
+[67/235] B0CW4XGX7R OK rating=4.2 out of 5 stars cnt=(47) nVar=24
+[68/235] B0HJZSSJZD OK rating= cnt= nVar=2
+[69/235] B0HJZRXPYG OK rating= cnt= nVar=1
+[70/235] B0HJZQRN9R OK rating= cnt= nVar=0
+[71/235] B0HJ5GRPGT OK rating= cnt= nVar=2
+[72/235] B0HJZHZ3YS OK rating= cnt= nVar=4
+[73/235] B0FH53CKPW OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[74/235] B0FW4R8M7R OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[75/235] B0HJZVHQZ5 OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[76/235] B0FLK8HTY1 OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[77/235] B0FJ28FKBH OK rating=4.5 out of 5 stars cnt=(26) nVar=2
+[78/235] B0HJZPB2GT OK rating= cnt= nVar=4
+[79/235] B0HJZLDKP9 OK rating= cnt= nVar=2
+[80/235] B0HK111GLV OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[81/235] B0FSZMFFD5 OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[82/235] B0FP2785LR OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[83/235] B0HJZPY8GH OK rating= cnt= nVar=0
+[84/235] B0HJZTRLY5 OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[85/235] B09QMBDSDF OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[86/235] B0HMS8YDZP OK rating= cnt= nVar=6
+[87/235] B0HMS6FZ46 OK rating= cnt= nVar=4
+[88/235] B0HMSMCM41 OK rating= cnt= nVar=6
+[89/235] B0HMSM29L4 OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[90/235] B0HMSPYNXR OK rating= cnt= nVar=6
+[91/235] B0HMSK3RSK OK rating= cnt= nVar=4
+[92/235] B0HMS982BJ OK rating= cnt= nVar=0
+[93/235] B0HMSDSX3Z OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[94/235] B0HMS9XDQX OK rating= cnt= nVar=6
+[95/235] B0HMSN6DZ5 OK rating= cnt= nVar=4
+[96/235] B0HMSJC8NJ OK rating= cnt= nVar=0
+[97/235] B0HMSL46HC OK rating= cnt= nVar=0
+[98/235] B0HMS75NJ8 OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[99/235] B0HMSKN948 OK rating= cnt= nVar=3
+[100/235] B0HMSHC5L5 OK rating= cnt= nVar=2
+[101/235] B0HMSGFR28 OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[102/235] B0HMSN5HVP OK rating= cnt= nVar=0
+[103/235] B0HMSFWTMC OK rating= cnt= nVar=3
+[104/235] B0FQP2Z5PB OK rating=3.9 out of 5 stars cnt=(10) nVar=1
+[105/235] B0DBVB711J OK rating=5.0 out of 5 stars cnt=(1) nVar=2
+[106/235] B0G2RT5QYB OK rating= cnt= nVar=1
+[107/235] B0CPSN9JR6 OK rating= cnt= nVar=1
+[108/235] B0FLJ8G5ZB OK rating=3.8 out of 5 stars cnt=(6) nVar=1
+[109/235] B0FJRTTVTT OK rating= cnt= nVar=1
+[110/235] B0H337Z9W8 OK rating= cnt= nVar=3
+[111/235] B0H33HYHG3 OK rating= cnt= nVar=1
+[112/235] B085VYN97J OK rating=4.2 out of 5 stars cnt=(99) nVar=1
+[113/235] B08S33N22G OK rating=4.6 out of 5 stars cnt=(462) nVar=2
+[114/235] B0FQP68F2C OK rating=2.6 out of 5 stars cnt=(8) nVar=2
+[115/235] B0FWJCVTLC OK rating=3.8 out of 5 stars cnt=(14) nVar=2
+[116/235] B0HMSC9ZX1 OK rating= cnt= nVar=4
+[117/235] B0HMSGGG8Q OK rating= cnt= nVar=2
+[118/235] B0HMSFG3BD OK rating= cnt= nVar=6
+[119/235] B0HMS7VQTC OK rating= cnt= nVar=2
+[120/235] B0HMSF1VZ4 OK rating= cnt= nVar=3
+[121/235] B0HMSJWPLY OK rating= cnt= nVar=4
+[122/235] B0HMSDJ8SB OK rating= cnt= nVar=1
+[123/235] B0HMS5J1H1 OK rating= cnt= nVar=4
+[124/235] B0HMSHG7CL OK rating= cnt= nVar=3
+[125/235] B0HMSMJNM8 OK rating= cnt= nVar=1
+[126/235] B0HMSD41BJ OK rating= cnt= nVar=1
+[127/235] B0HMSGYQZY OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[128/235] B0HMSN6X2Y OK rating= cnt= nVar=2
+[129/235] B0HMSFX7NL OK rating= cnt= nVar=3
+[130/235] B0HMS59PNZ OK rating= cnt= nVar=3
+[131/235] B0HMSL6DM9 OK rating= cnt= nVar=3
+[132/235] B0HMS6K2ZR OK rating= cnt= nVar=0
+[133/235] B0HMS86PML OK rating= cnt= nVar=2
+[134/235] B0FMRV8BRW OK rating=5.0 out of 5 stars cnt=(1) nVar=1
+[135/235] B0FSZLQYQY OK rating=5.0 out of 5 stars cnt=(1) nVar=2
+[136/235] B0FSZMQ2VN OK rating=3.8 out of 5 stars cnt=(4) nVar=1
+[137/235] B0CW557L28 OK rating=5.0 out of 5 stars cnt=(2) nVar=2
+[138/235] B0BRSVVGYP OK rating= cnt= nVar=0
+[139/235] B0FPWQVSL5 OK rating=4.2 out of 5 stars cnt=(9) nVar=2
+[140/235] B0FPWW7H2K OK rating=3.9 out of 5 stars cnt=(15) nVar=1
+[141/235] B0FSZQPN1Q OK rating= cnt= nVar=2
+[142/235] B0BKL2LL7P OK rating= cnt= nVar=3
+[143/235] B0HMS586RJ OK rating=3.7 out of 5 stars cnt=(17) nVar=3
+[144/235] B0HMSC9ZX2 OK rating= cnt= nVar=2
+[145/235] B0HMSQ15T6 OK rating= cnt= nVar=3
+[146/235] B0HMSQ3CKV OK rating= cnt= nVar=4
+[147/235] B0HMSGLFJS OK rating= cnt= nVar=0
+[148/235] B0HMSJR19H OK rating= cnt= nVar=3
+[149/235] B0HMSH2PYM OK rating= cnt= nVar=0
+[150/235] B0HMS8F3K1 OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[151/235] B0HMSBT9VN OK rating= cnt= nVar=2
+[152/235] B0HMSLX49V OK rating= cnt= nVar=3
+[153/235] B0HMS8QFXD OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[154/235] B0HMSDSPJ3 OK rating= cnt= nVar=3
+[155/235] B0HMSF782Q OK rating= cnt= nVar=1
+[156/235] B0HMSCKSDL OK rating= cnt= nVar=2
+[157/235] B0HMSGH4SB OK rating= cnt= nVar=1
+[158/235] B0HMS6GGVS OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[159/235] B0HMSK5G42 OK rating= cnt= nVar=6
+[160/235] B0HMS992DT OK rating= cnt= nVar=3
+[161/235] B0HMSDWSFJ OK rating=2.9 out of 5 stars cnt=(9) nVar=14
+[162/235] B0HMSF28HG OK rating= cnt= nVar=2
+[163/235] B0HMSF35QJ OK rating= cnt= nVar=0
+[164/235] B0HMSF87RR OK rating= cnt= nVar=1
+[165/235] B0HMS7RM7R OK rating= cnt= nVar=2
+[166/235] B0HMSGVCV7 OK rating=4.0 out of 5 stars cnt=(129) nVar=24
+[167/235] B0HMSF6N5L OK rating= cnt= nVar=2
+[168/235] B0HMSJ69G1 OK rating=5.0 out of 5 stars cnt=(1) nVar=2
+[169/235] B0HMSGK4HB OK rating= cnt= nVar=3
+[170/235] B0HMSJY3CY OK rating= cnt= nVar=6
+[171/235] B0CW31RFFY OK rating=4.4 out of 5 stars cnt=(4) nVar=1
+[172/235] B0HGLVYFKM OK rating=5.0 out of 5 stars cnt=(1) nVar=2
+[173/235] B0HGXSKY8F OK rating= cnt= nVar=3
+[174/235] B0HHF3Y7VW OK rating= cnt= nVar=3
+[175/235] B0HG9S4RKQ OK rating= cnt= nVar=2
+[176/235] B0HDYYMWF5 OK rating= cnt= nVar=2
+[177/235] B085VLCKPH OK rating=4.1 out of 5 stars cnt=(185) nVar=1
+[178/235] B0HN45M6T2 OK rating= cnt= nVar=2
+[179/235] B0HMSGMX9N OK rating= cnt= nVar=2
+[180/235] B0HMSBZYHN OK rating= cnt= nVar=2
+[181/235] B0HMS4SZL2 OK rating= cnt= nVar=2
+[182/235] B0CW35FBW3 OK rating=3.7 out of 5 stars cnt=(11) nVar=1
+[183/235] B0HMS7J3KV OK rating= cnt= nVar=3
+[184/235] B0HMSKQRKL OK rating= cnt= nVar=3
+[185/235] B0HMSMTL4F OK rating= cnt= nVar=6
+[186/235] B0HMS8WZMS OK rating= cnt= nVar=3
+[187/235] B0HMSKNHCW OK rating= cnt= nVar=2
+[188/235] B0HMSPV3WG OK rating= cnt= nVar=2
+[189/235] B0HMSN2JRH OK rating= cnt= nVar=3
+[190/235] B0HMSGBXHP OK rating= cnt= nVar=3
+[191/235] B0HMSJ9GTJ OK rating= cnt= nVar=2
+[192/235] B0CW377ZQG OK rating=5.0 out of 5 stars cnt=(3) nVar=1
+[193/235] B085VQ99DY OK rating=4.1 out of 5 stars cnt=(21) nVar=0
+[194/235] B09KRPWRJJ OK rating=4.2 out of 5 stars cnt=(3) nVar=0
+[195/235] B09QMBPX4J OK rating=4.0 out of 5 stars cnt=(15) nVar=0
+[196/235] B0FWQTJZZK OK rating=5.0 out of 5 stars cnt=(1) nVar=0
+[197/235] B09QPTK7TX OK rating=5.0 out of 5 stars cnt=(1) nVar=0
+[198/235] B09LV4TLNV OK rating=5.0 out of 5 stars cnt=(4) nVar=0
+[199/235] B0HGY6CV75 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[200/235] B0HHDPS516 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[201/235] B0HHF25PLQ OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[202/235] B0HGY626XW OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[203/235] B0HGY7GSQY OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[204/235] B0HG9WKY6H OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[205/235] B0HC2JKLR3 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[206/235] B0FMF1K7B4 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[207/235] B0FL71SF6Y OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[208/235] B0FMF5KPDH OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[209/235] B0HDYNNFC6 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[210/235] B0HC27ZMY4 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[211/235] B0HC23F954 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[212/235] B0HC2B5XXB OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[213/235] B0HC27J1ZY OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[214/235] B0HC22PT2K OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[215/235] B0HC287FRV OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[216/235] B0FMF3K88B OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[217/235] B0FL73XFJX OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[218/235] B0HDBVY6NT OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[219/235] B0HF8YZV6Q OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[220/235] B0HFJ7TYSR OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[221/235] B0HF8TNS2X OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[222/235] B0HJZWXN8W OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[223/235] B0HMS54CXH OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[224/235] B0HMSJJW5N OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[225/235] B0HMSL8335 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[226/235] B0HMSGK4CX OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[227/235] B0HMSDSPXR OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[228/235] B0HMSCP87D OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[229/235] B0HMSDQK5K OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[230/235] B08CMWLKPW OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[231/235] B0G4WBSP3W OK rating=5.0 out of 5 stars cnt=(2) nVar=0
+[232/235] B0CW363K43 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[233/235] B09LV3ZJ72 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[234/235] B0FMF1J7WH OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+[235/235] B085VDQYV4 OK rating=4.2 out of 5 stars cnt=(169) nVar=32
+完成: 成功 235 / 失败 0 -> full_pd.json
+收尾: 杀 agent-browser 的 Chromium（按 CommandLine 过滤，别碰用户自己的 Chrome）
