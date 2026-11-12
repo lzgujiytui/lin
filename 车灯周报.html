@@ -192,7 +192,11 @@ details.fold>div.foldbody{margin-top:6px}
 <div class="box" style="margin-top:12px">
 <div class="ct">📝 下滑 TOP10 · 原因分析</div>
 <div class="cs">针对上面下滑的链接填写原因与处理动作；点“保存”写入本机浏览器（localStorage，按周号存储），下次打开自动带出，可随时修改。</div>
-<textarea id="dnnTA" placeholder="例：B0HGLVYFKM 因提价 5% 转化下滑，已恢复原价；B0HGY7GSQY 本周断货 3 天…" style="width:100%;box-sizing:border-box;min-height:104px;padding:10px 12px;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;line-height:1.75;resize:vertical;font-family:inherit;outline:none"></textarea>
+<textarea id="dnnTA" data-default="【本周下滑 TOP10 原因】
+① 广告收缩／预算调走（6 条）：B0FLJ8G5ZB 7→1 件（广告 $41→$16、广告单 0→0、UV 47→31）；B0FQJGQCP1 5→0 件（广告 $34→$14、广告单 0→0、UV 52→28）；B0HGY7GSQY 10→5 件（广告 $499→$385、广告单 4→4、UV 218→222）；B0FSZMQ2VN 3→0 件（广告 $119→$63、广告单 1→0、UV 55→49）；B0FPWW7H2K 2→0 件（广告 $152→$38、广告单 1→0、UV 73→36）；B0FMRV8BRW 2→0 件（广告 $19→$0、广告单 1→0、UV 21→10）。
+② 加投但没转化（3 条）：B0FQP68F2C 3→0 件（广告 $64→$79、广告单 0→0、UV 47→58）；B0HMSK3RSK 2→0 件（广告 $4→$13、广告单 1→0、UV 3→14）；B0HMSKQRKL 2→0 件（广告 $4→$19、广告单 1→0、UV 7→20）——有曝光无广告单，属评分／流量质量问题。
+③ 主力自然单回落（1 条）：B0HGLVYFKM 25→21 件（广告 $113→$101、广告单 2→1、UV 586→595）——流量基本持平，转化下滑。
+小结：全店广告花费环比上涨，但下滑 TOP10 合计 $1,049→$729（-30%）——预算从这批低效链接挪去了大词／新链接；共性为广告单少＋评分偏低，不是单纯缺流量。" placeholder="例：B0HGLVYFKM 因提价 5% 转化下滑，已恢复原价；B0HGY7GSQY 本周断货 3 天…" style="width:100%;box-sizing:border-box;min-height:104px;padding:10px 12px;border:1px solid #cbd5e1;border-radius:8px;font-size:13px;line-height:1.75;resize:vertical;font-family:inherit;outline:none"></textarea>
 <div style="margin-top:8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
 <button id="dnnSave" style="cursor:pointer;border:0;border-radius:7px;padding:7px 16px;font-size:13px;color:#fff;background:#0e7490">保存</button>
 <button id="dnnClr" style="cursor:pointer;border:1px solid #cbd5e1;border-radius:7px;padding:7px 14px;font-size:13px;color:#475569;background:#fff">清空</button>
@@ -429,6 +433,7 @@ mk('c_ad2',Object.assign(base(),{legend:{data:['ACOS W44','CVR W45']},xAxis:{typ
     if(!ta) return;
     var v=localStorage.getItem(K);
     if(v){ ta.value=v; var t=localStorage.getItem(KT); msg.textContent=t?("已加载上次保存 · "+t):"已加载上次保存"; }
+    else if(ta.getAttribute("data-default")){ ta.value=ta.getAttribute("data-default"); msg.textContent="已预填本周分析，编辑后点保存"; }
     function save(){
       try{
         localStorage.setItem(K, ta.value);
