@@ -85,6 +85,15 @@ td.c{text-align:center;font-variant-numeric:tabular-nums}
 .kb-h{font-weight:700;color:#155e75;font-size:12.5px;margin-bottom:6px}
 .kb ul{margin:0;padding-left:18px} .kb li{margin:4px 0;font-size:12px}
 @media(max-width:900px){.tcards.three{grid-template-columns:1fr}.wp-tip{min-width:230px}}
+/* ===== v3：全站表格对齐 + 异常标色 ===== */
+td.c{text-align:center;font-variant-numeric:tabular-nums}
+td.tl{text-align:left}
+td.hl-red{color:#b91c1c;font-weight:700}
+td.hl-amb{color:#b45309;font-weight:700}
+td.hl-gray{color:#94a3b8}
+.hl-red{color:#b91c1c} .hl-amb{color:#b45309} .hl-gray{color:#94a3b8}
+.toc-note{margin-left:auto;font-size:11px;color:#64748b;display:inline-flex;align-items:center;gap:3px;padding:3px 0}
+
 </style></head><body><div class="wrap">
 <header>
   <h1>水泵（Water Pump）品类广告复盘看板（含设置层：打法 / 竞价策略 / 广告位 / 出价）</h1>
@@ -97,7 +106,7 @@ td.c{text-align:center;font-variant-numeric:tabular-nums}
     <span class="chip">覆盖校验：领星花费 $5,538 ÷ BI $5,510 = 100.5%</span>
   </div>
 </header>
-<nav class="toc"><a href="#s01"><span>01</span>口径与范围</a><a href="#s02"><span>02</span>总体情况</a><a href="#s03"><span>03</span>渠道分工</a><a href="#s04"><span>04</span>打法与设置层</a><a href="#s05"><span>05</span>依赖度</a><a href="#s06"><span>06</span>决策矩阵</a><a href="#s07"><span>07</span>问题诊断</a><a href="#s08"><span>08</span>下一步动作</a><a href="#s09"><span>09</span>附录</a></nav>
+<nav class="toc"><a href="#s01"><span>01</span>口径与范围</a><a href="#s02"><span>02</span>总体情况</a><a href="#s03"><span>03</span>渠道分工</a><a href="#s04"><span>04</span>打法与设置层</a><a href="#s05"><span>05</span>依赖度</a><a href="#s06"><span>06</span>决策矩阵</a><a href="#s07"><span>07</span>问题诊断</a><a href="#s08"><span>08</span>下一步动作</a><a href="#s09"><span>09</span>附录</a><span class="toc-note">标色：<b class="hl-red">红</b>超线（ACOS&gt;20% / 毛利&lt;0 / 依赖&gt;70%） · <b class="hl-amb">橙</b>临界 · <b class="hl-gray">灰</b>无投放</span></nav>
 
 <section>
   <h2 id="s01"><span class="no">01</span>口径与范围（先定基础）</h2>
@@ -115,6 +124,7 @@ td.c{text-align:center;font-variant-numeric:tabular-nums}
   <div class="chartbox"><div class="chint">鼠标移到任意一周看具体数值 · 点击锁定 · ←/→ 逐周 · Esc 关闭</div>
   <svg id="wpChart" tabindex="0" viewBox="0 0 1180 300" class="chart"><line x1="56" y1="18" x2="1118" y2="18" class="grid"/><text x="48" y="22" class="ax" text-anchor="end">$602</text><text x="1124" y="22" class="ax" text-anchor="start">25.6%</text><line x1="56" y1="78" x2="1118" y2="78" class="grid"/><text x="48" y="82" class="ax" text-anchor="end">$452</text><text x="1124" y="82" class="ax" text-anchor="start">19.2%</text><line x1="56" y1="139" x2="1118" y2="139" class="grid"/><text x="48" y="143" class="ax" text-anchor="end">$301</text><text x="1124" y="143" class="ax" text-anchor="start">12.8%</text><line x1="56" y1="200" x2="1118" y2="200" class="grid"/><text x="48" y="204" class="ax" text-anchor="end">$151</text><text x="1124" y="204" class="ax" text-anchor="start">6.4%</text><line x1="56" y1="260" x2="1118" y2="260" class="grid"/><text x="48" y="264" class="ax" text-anchor="end">$0</text><text x="1124" y="264" class="ax" text-anchor="start">0.0%</text><rect x="63.8" y="187.8" width="25.3" height="72.2" class="bar-pre"><title>W21 花费 $180 · ACOS 13.3%</title></rect><text x="76" y="284" class="ax" text-anchor="middle">W21</text><rect x="104.6" y="189.9" width="25.3" height="70.1" class="bar-pre"><title>W22 花费 $175 · ACOS 19.4%</title></rect><rect x="145.5" y="181.1" width="25.3" height="78.9" class="bar-pre"><title>W23 花费 $196 · ACOS 11.0%</title></rect><text x="158" y="284" class="ax" text-anchor="middle">W23</text><rect x="186.3" y="185.0" width="25.3" height="75.0" class="bar-pre"><title>W24 花费 $187 · ACOS 20.5%</title></rect><rect x="227.1" y="164.4" width="25.3" height="95.6" class="bar-pre"><title>W25 花费 $238 · ACOS 15.2%</title></rect><text x="240" y="284" class="ax" text-anchor="middle">W25</text><rect x="268.0" y="175.7" width="25.3" height="84.3" class="bar-pre"><title>W26 花费 $210 · ACOS 14.2%</title></rect><rect x="308.8" y="177.2" width="25.3" height="82.8" class="bar-pre"><title>W27 花费 $206 · ACOS 12.2%</title></rect><text x="322" y="284" class="ax" text-anchor="middle">W27</text><rect x="349.7" y="182.8" width="25.3" height="77.2" class="bar-pre"><title>W28 花费 $192 · ACOS 13.3%</title></rect><rect x="390.5" y="162.4" width="25.3" height="97.6" class="bar-pre"><title>W29 花费 $243 · ACOS 9.9%</title></rect><text x="403" y="284" class="ax" text-anchor="middle">W29</text><rect x="431.4" y="104.2" width="25.3" height="155.8" class="bar-pre"><title>W30 花费 $388 · ACOS 12.2%</title></rect><rect x="472.2" y="138.7" width="25.3" height="121.3" class="bar-pre"><title>W31 花费 $302 · ACOS 10.6%</title></rect><text x="485" y="284" class="ax" text-anchor="middle">W31</text><rect x="513.1" y="168.5" width="25.3" height="91.5" class="bar-pre"><title>W32 花费 $228 · ACOS 9.8%</title></rect><rect x="553.9" y="143.7" width="25.3" height="116.3" class="bar-pre"><title>W33 花费 $289 · ACOS 10.1%</title></rect><text x="567" y="284" class="ax" text-anchor="middle">W33</text><rect x="594.8" y="135.0" width="25.3" height="125.0" class="bar-cur"><title>W34 花费 $311 · ACOS 14.3%</title></rect><rect x="635.6" y="87.6" width="25.3" height="172.4" class="bar-cur"><title>W35 花费 $429 · ACOS 11.7%</title></rect><text x="648" y="284" class="ax" text-anchor="middle">W35</text><rect x="676.5" y="69.3" width="25.3" height="190.7" class="bar-cur"><title>W36 花费 $475 · ACOS 12.0%</title></rect><rect x="717.3" y="71.3" width="25.3" height="188.7" class="bar-cur"><title>W37 花费 $470 · ACOS 11.5%</title></rect><text x="730" y="284" class="ax" text-anchor="middle">W37</text><rect x="758.1" y="101.6" width="25.3" height="158.4" class="bar-cur"><title>W38 花费 $394 · ACOS 13.8%</title></rect><rect x="799.0" y="49.6" width="25.3" height="210.4" class="bar-cur"><title>W39 花费 $524 · ACOS 13.1%</title></rect><text x="812" y="284" class="ax" text-anchor="middle">W39</text><rect x="839.8" y="80.5" width="25.3" height="179.5" class="bar-cur"><title>W40 花费 $447 · ACOS 11.7%</title></rect><rect x="880.7" y="69.3" width="25.3" height="190.7" class="bar-cur"><title>W41 花费 $475 · ACOS 13.4%</title></rect><text x="893" y="284" class="ax" text-anchor="middle">W41</text><rect x="921.5" y="73.0" width="25.3" height="187.0" class="bar-cur"><title>W42 花费 $466 · ACOS 13.1%</title></rect><rect x="962.4" y="66.7" width="25.3" height="193.3" class="bar-cur"><title>W43 花费 $481 · ACOS 13.7%</title></rect><text x="975" y="284" class="ax" text-anchor="middle">W43</text><rect x="1003.2" y="122.9" width="25.3" height="137.1" class="bar-cur"><title>W44 花费 $341 · ACOS 13.0%</title></rect><rect x="1044.1" y="129.4" width="25.3" height="130.6" class="bar-cur"><title>W45 花费 $325 · ACOS 13.8%</title></rect><text x="1057" y="284" class="ax" text-anchor="middle">W45</text><rect x="1084.9" y="110.6" width="25.3" height="149.4" class="bar-cur"><title>W46 花费 $372 · ACOS 14.8%</title></rect><polyline points="76.4,134.2 117.3,76.2 158.1,156.1 199.0,66.4 239.8,116.5 280.7,125.5 321.5,144.5 362.3,134.3 403.2,166.6 444.0,144.9 484.9,160.2 525.7,167.1 566.6,164.5 607.4,124.6 648.3,149.4 689.1,146.7 730.0,151.3 770.8,129.7 811.7,135.8 852.5,149.8 893.3,133.2 934.2,136.6 975.0,130.6 1015.9,137.5 1056.7,129.3 1097.6,120.3" class="line-acos"/><circle cx="76.4" cy="134.2" r="2.6" class="dot-acos"><title>W21 ACOS 13.3%</title></circle><circle cx="117.3" cy="76.2" r="2.6" class="dot-acos"><title>W22 ACOS 19.4%</title></circle><circle cx="158.1" cy="156.1" r="2.6" class="dot-acos"><title>W23 ACOS 11.0%</title></circle><circle cx="199.0" cy="66.4" r="2.6" class="dot-acos"><title>W24 ACOS 20.5%</title></circle><circle cx="239.8" cy="116.5" r="2.6" class="dot-acos"><title>W25 ACOS 15.2%</title></circle><circle cx="280.7" cy="125.5" r="2.6" class="dot-acos"><title>W26 ACOS 14.2%</title></circle><circle cx="321.5" cy="144.5" r="2.6" class="dot-acos"><title>W27 ACOS 12.2%</title></circle><circle cx="362.3" cy="134.3" r="2.6" class="dot-acos"><title>W28 ACOS 13.3%</title></circle><circle cx="403.2" cy="166.6" r="2.6" class="dot-acos"><title>W29 ACOS 9.9%</title></circle><circle cx="444.0" cy="144.9" r="2.6" class="dot-acos"><title>W30 ACOS 12.2%</title></circle><circle cx="484.9" cy="160.2" r="2.6" class="dot-acos"><title>W31 ACOS 10.6%</title></circle><circle cx="525.7" cy="167.1" r="2.6" class="dot-acos"><title>W32 ACOS 9.8%</title></circle><circle cx="566.6" cy="164.5" r="2.6" class="dot-acos"><title>W33 ACOS 10.1%</title></circle><circle cx="607.4" cy="124.6" r="2.6" class="dot-acos"><title>W34 ACOS 14.3%</title></circle><circle cx="648.3" cy="149.4" r="2.6" class="dot-acos"><title>W35 ACOS 11.7%</title></circle><circle cx="689.1" cy="146.7" r="2.6" class="dot-acos"><title>W36 ACOS 12.0%</title></circle><circle cx="730.0" cy="151.3" r="2.6" class="dot-acos"><title>W37 ACOS 11.5%</title></circle><circle cx="770.8" cy="129.7" r="2.6" class="dot-acos"><title>W38 ACOS 13.8%</title></circle><circle cx="811.7" cy="135.8" r="2.6" class="dot-acos"><title>W39 ACOS 13.1%</title></circle><circle cx="852.5" cy="149.8" r="2.6" class="dot-acos"><title>W40 ACOS 11.7%</title></circle><circle cx="893.3" cy="133.2" r="2.6" class="dot-acos"><title>W41 ACOS 13.4%</title></circle><circle cx="934.2" cy="136.6" r="2.6" class="dot-acos"><title>W42 ACOS 13.1%</title></circle><circle cx="975.0" cy="130.6" r="2.6" class="dot-acos"><title>W43 ACOS 13.7%</title></circle><circle cx="1015.9" cy="137.5" r="2.6" class="dot-acos"><title>W44 ACOS 13.0%</title></circle><circle cx="1056.7" cy="129.3" r="2.6" class="dot-acos"><title>W45 ACOS 13.8%</title></circle><circle cx="1097.6" cy="120.3" r="2.6" class="dot-acos"><title>W46 ACOS 14.8%</title></circle><line x1="587" y1="18" x2="587" y2="260" class="sep"/><text x="593" y="30" class="ax">← 前13周 | 近13周 →</text></svg><div class="wp-tip" id="wpTip"></div></div>
   <div class="note">读法：左轴 = 每周广告花费（$），右轴 = ACOS。深色为近 13 周、灰色为前 13 周。<b>花费从 5 月起持续爬坡，ACOS 在 9–11% 区间震荡</b>，没有随放量恶化——是「边放量边守住效率」的形态，不是靠高价买流量。</div>
+  <div class="note" style="border-color:#fde68a;background:#fffbeb"><b>窗口口径：</b>26 周 = 近 13 周（W34–W46，8/15–11/13）+ 前 13 周（W21–W33，5/16–8/14）两个<b>等长窗口并排</b>，不是随便截的 26 周。这个区间正好是 2026 年效率最好的一段（<b>1–4 月 ACOS 17.1%、5–10 月 12.6%</b>），所以图中的 12.9% <b>不代表全年水平</b>（全年区间 11–19%）；要判「效率有没有恶化」，看 03 节的「本期 vs 前期」与同商编对比，不要只看这张图的末端。</div>
 
   <h3>月度节奏与旺季切段</h3>
   <table class="srt"><thead><tr><th>月份</th><th>花费</th><th>广告销售额</th><th>ACOS</th><th>品类销量</th><th>依赖度</th><th>转化率</th><th>CPC</th><th>毛利率(损益)</th><th>浏览量</th><th>整体转化</th></tr></thead><tbody><tr class=""><td class="l">2025-06</td><td class="r">$1,338</td><td class="r">$5,927</td><td class="r">22.6%</td><td class="r">239</td><td class="r">33.5%</td><td class="r">3.8%</td><td class="r">$0.63</td><td class="r">12.5%</td><td class="r">6,060</td><td class="r">3.9%</td></tr><tr class=""><td class="l">2025-07</td><td class="r">$322</td><td class="r">$3,524</td><td class="r">9.1%</td><td class="r">293</td><td class="r">26.6%</td><td class="r">7.7%</td><td class="r">$0.32</td><td class="r">28.9%</td><td class="r">5,177</td><td class="r">5.7%</td></tr><tr class=""><td class="l">2025-08</td><td class="r">$588</td><td class="r">$4,166</td><td class="r">14.1%</td><td class="r">310</td><td class="r">30.0%</td><td class="r">6.2%</td><td class="r">$0.39</td><td class="r">25.2%</td><td class="r">6,019</td><td class="r">5.2%</td></tr><tr class=""><td class="l">2026-06</td><td class="r">$891</td><td class="r">$6,017</td><td class="r">14.8%</td><td class="r">703</td><td class="r">22.3%</td><td class="r">6.8%</td><td class="r">$0.39</td><td class="r">19.3%</td><td class="r">14,450</td><td class="r">4.9%</td></tr><tr class=""><td class="l">2026-07</td><td class="r">$1,209</td><td class="r">$10,778</td><td class="r">11.2%</td><td class="r">929</td><td class="r">29.3%</td><td class="r">9.4%</td><td class="r">$0.42</td><td class="r">19.0%</td><td class="r">13,835</td><td class="r">6.7%</td></tr><tr class=""><td class="l">2026-08</td><td class="r">$1,437</td><td class="r">$12,112</td><td class="r">11.9%</td><td class="r">1,048</td><td class="r">29.1%</td><td class="r">9.3%</td><td class="r">$0.44</td><td class="r">20.0%</td><td class="r">15,450</td><td class="r">6.8%</td></tr><tr class=""><td class="l">2026-09</td><td class="r">$1,996</td><td class="r">$16,281</td><td class="r">12.3%</td><td class="r">1,119</td><td class="r">34.9%</td><td class="r">9.0%</td><td class="r">$0.46</td><td class="r">19.8%</td><td class="r">17,743</td><td class="r">6.3%</td></tr><tr class=""><td class="l">2026-10</td><td class="r">$1,934</td><td class="r">$14,786</td><td class="r">13.1%</td><td class="r">1,223</td><td class="r">30.5%</td><td class="r">9.1%</td><td class="r">$0.47</td><td class="r">19.1%</td><td class="r">18,109</td><td class="r">6.8%</td></tr></tbody></table>
@@ -194,7 +204,6 @@ td.c{text-align:center;font-variant-numeric:tabular-nums}
       </ul>
     </div>
   </div>
-  <div class="note">品牌口径提醒：另有 30 条水泵 ASIN 建档品牌为 Torchbeam（车灯品牌串档）、2 条为 Others，13 周合计花费 &lt;$3，保留在明细但不单列结论。原 03 节「PHILTOP 双渠道（FBA $3,235 / VC $1,091）」中的 $3,235 与 FBA 合计 $2,305 矛盾，已按实际拆分更正为 FBA $2,304。</div>
 </section>
 
 <section>
@@ -466,6 +475,42 @@ document.querySelectorAll("table.srt").forEach(function(t){
     if(ev.key === 'Escape'){ pin = null; hide(); }
   });
   document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape' && pin !== null){ pin = null; hide(); } });
+})();
+</script>
+
+<script>
+(function(){
+  function isNum(t){ return /^[$+\-−<>~\d.,%\s]*$/.test(t) && /[0-9]/.test(t); }
+  function isId(t){ return /^[A-Z0-9\-]{6,}$/.test(t); }
+  document.querySelectorAll('table').forEach(function(tb){
+    var hs = [].map.call(tb.querySelectorAll('thead th'), function(th){ return (th.innerText||'').trim(); });
+    if(!hs.length) return;
+    var trs = tb.querySelectorAll('tbody tr');
+    var mark = trs.length <= 60;            // 明细大表（>60 行）只对齐、不标色，避免满屏红
+    trs.forEach(function(tr){
+      [].forEach.call(tr.children, function(td, i){
+        var t = (td.innerText||'').trim();
+        if(!td.classList.contains('l')){
+          var center = isNum(t) || isId(t) || t.length <= 8;
+          td.classList.add(center ? 'c' : 'tl');
+        }
+        if(!mark) return;
+        if(td.querySelector('.d') || td.querySelector('.fh') || td.querySelector('.star') || td.querySelector('.gap')) return;
+        var h = hs[i] || '';
+        var n = parseFloat(t.replace(/[^0-9.\-]/g,''));
+        if(isNaN(n)) return;
+        if(/ACOS/i.test(h) && h.indexOf('Δ') < 0){
+          if(n > 20) td.classList.add('hl-red'); else if(n > 15) td.classList.add('hl-amb');
+        } else if(/毛利率/.test(h)){
+          if(n < 0) td.classList.add('hl-red'); else if(n < 5) td.classList.add('hl-amb');
+        } else if(/依赖度/.test(h) && h.indexOf('档位') < 0){
+          if(n > 70) td.classList.add('hl-red'); else if(n > 55) td.classList.add('hl-amb');
+        } else if((h === '花费' || h === '广告销售额') && n === 0){
+          td.classList.add('hl-gray');
+        }
+      });
+    });
+  });
 })();
 </script>
 </body></html>
